@@ -1,6 +1,5 @@
 import _ from "lodash";
 import "./style.css";
-import testImage from "./test.png";
 
 async function getComponent() {
   const { default: _ } = await import("lodash");
