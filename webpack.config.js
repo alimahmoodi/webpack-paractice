@@ -5,7 +5,6 @@ module.exports = {
   mode: "development",
   entry: {
     index: "./src/index.js",
-    another: "./src/another.js",
   },
   devtool: "inline-source-map",
   devServer: {
@@ -33,10 +32,5 @@ module.exports = {
         type: "asset/resource",
       },
     ],
-  },
-  optimization: {
-    splitChunks: {
-      chunks: "all",
-    },
   },
 };
